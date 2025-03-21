@@ -1,0 +1,16 @@
+@Crypto_Portfolio_Manager_HostAddress = http://localhost:5161
+
+GET {{Crypto_Portfolio_Manager_HostAddress}}/transactions/
+Accept: application/json
+
+###
+
+# POST {{Crypto_Portfolio_Manager_HostAddress}}/transactions/
+
+# {
+#   "Symbol": "BTC",
+#   "Amount": "12",
+#   "Price": "83000",
+#   "PurchaseDate": "",
+#   "TotalCost": "12",
+# }
